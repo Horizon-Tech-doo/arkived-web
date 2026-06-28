@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "arkived-web",
+  "account_id": "f3da2a96eda666c8ef38d90ef261eb84",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [{ "pattern": "arkived.app", "custom_domain": true }]
+}
